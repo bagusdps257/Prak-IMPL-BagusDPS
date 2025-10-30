@@ -1,0 +1,36 @@
+/*
+class Car implements VehicleInterface {
+
+    // Can be implemented
+    @Override
+    public void drive() {
+    }
+
+    @Override
+    public void stop() {
+    }
+
+    @Override
+    public void refuel() {
+    }
+
+    // Can be implemented
+    @Override
+    public void openDoors() {
+    }
+}
+*/
+
+class Car implements VehicleInterface, DoorInterface {
+    @Override
+    public void drive() {}
+
+    @Override
+    public void stop() {}
+
+    @Override
+    public void refuel() {}
+
+    @Override
+    public void openDoors() {}
+}
